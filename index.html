@@ -1,0 +1,30 @@
+<!-- Projeto desenvolvido por https://github.com/carolinarlima com a temática de Stranger Things -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things | Feliz 2026</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.PNG" type="image/png">
+</head>
+<body id="body">
+    <canvas id="particles"></canvas>
+
+    <section id="countdown-container">
+        <h1 class="st-title normal-text">Stranger Things 5</h1>
+        <div id="timer-label">A contagem para o último episódio começou:</div>
+        <div id="countdown" class="timer">00:00:00</div>
+        <audio controls id="st-theme" src="audio/stranger-things-theme.mp3" controlsList="nodownload" loop="true"></audio>
+    </section>
+  
+    <section id="finish-container" class="hidden">
+        <h1 class="st-title normal-text">FELIZ 2026</h1>
+        <h1 class="st-title upside-text">FELIZ 2026</h1>
+        <p class="status-msg">VOCÊ ESTÁ NO MUNDO INVERTIDO</p>
+        <audio controls id="st-vecna" src="audio/vecna-clock.mp3" controlsList="nodownload" loop="true"></audio>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

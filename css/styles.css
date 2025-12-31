@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+
+body, html {
+    margin: 0; padding: 0; width: 100%; height: 100%;
+    background-color: #000; color: #fff;
+    font-family: 'Crimson Text', serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+audio {
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    opacity: 40%;
+}
+
+#countdown-container, #finish-container {
+    text-align: center;
+    z-index: 2;
+}
+
+.st-title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+    line-height: 1;
+}
+
+/* Título Normal (Vermelho) */
+.normal-text {
+    color: #db202c;
+    text-shadow: 0 0 15px #db202c, 0 0 30px #8b141a;
+    animation: flicker 5s infinite;
+}
+
+/* Título Invertido (Azul e Rotacionado 180°) */
+.upside-text {
+    color: #73b9ee;
+    text-shadow: 0 0 15px #2e5a88, 0 0 30px #112233;
+    transform: rotate(180deg); /* Apenas rotaciona, não espelha */
+    margin-top: 10px;
+    opacity: 0.8;
+    animation: flicker 5s infinite;
+}
+
+.timer {
+    font-size: 4rem;
+    font-family: 'Crimson Text', serif;
+    margin-top: 20px;
+    color: #db202c;
+    text-shadow: 0 0 15px #db202c, 0 0 30px #8b141a;
+    margin-top: 50px;
+    animation: flicker 5s infinite;
+}
+
+#timer-label {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: gray;
+}
+
+.status-msg {
+    margin-top: 50px;
+    letter-spacing: 5px;
+    color: #73b9ee;
+    font-size: 1.2rem;
+    transform: rotate(180deg);
+    text-shadow: 0 0 15px #2e5a88, 0 0 30px #112233;
+}
+
+/* Fundo do Mundo Invertido */
+.upside-down-bg {
+    background: radial-gradient(circle, #050a1d 0%, #000 100%);
+    transition: background 4s ease-in-out;
+}
+
+#particles {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    display: none;
+}
+
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
+    20%, 24%, 55% { opacity: 0.4; }
+}
+
+.hidden { display: none; }
