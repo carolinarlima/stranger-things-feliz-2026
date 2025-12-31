@@ -34,9 +34,5 @@ Esta página foi construída para funcionar em dois estados distintos:
 
 ## 📸 Visualize:
 [Stranger Thinges | Feliz 2026](https://carolinarlima.github.io/stranger-things-feliz-2026/)
-
-
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/stranger-things-2026.git](https://github.com/seu-usuario/stranger-things-2026.git)
+<img src="img/1.png" width="300" alt="Mundo Real">
+<img src="img/2.png" width="300" alt="Mundo Invertido">
