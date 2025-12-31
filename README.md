@@ -35,5 +35,4 @@ Esta página foi construída para funcionar em dois estados distintos:
 ## 📸 Visualize:
 [Stranger Thinges | Feliz 2026](https://carolinarlima.github.io/stranger-things-feliz-2026/) 
 <br>
-<img src="img/1.png" width="300" alt="Mundo Real">
-<img src="img/2.png" width="300" alt="Mundo Invertido">
+<img src="img/Animação.gif" width="300" alt="Transição do Mundo Real para o Mundo Invertido">
