@@ -33,6 +33,7 @@ Esta página foi construída para funcionar em dois estados distintos:
 - [x] **Suporte a Áudio:** Dois players tocando músicas diferentes dependendo da página que está.
 
 ## 📸 Visualize:
-[Stranger Thinges | Feliz 2026](https://carolinarlima.github.io/stranger-things-feliz-2026/)
+[Stranger Thinges | Feliz 2026](https://carolinarlima.github.io/stranger-things-feliz-2026/) 
+<br>
 <img src="img/1.png" width="300" alt="Mundo Real">
 <img src="img/2.png" width="300" alt="Mundo Invertido">
